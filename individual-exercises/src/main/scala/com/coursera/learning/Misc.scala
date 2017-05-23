@@ -25,8 +25,9 @@ object Misc {
     loop(a, 1)
   }
 
-
   def fact(n: Int): Int = {
     product(x => x)(1, n)
   }
+
+  // TODO Write a function that generalizes sum and product
 }
