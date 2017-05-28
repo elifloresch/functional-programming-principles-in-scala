@@ -11,4 +11,11 @@ class Operations$Test extends FunSuite {
     assert(Operations.factorial(5) == 120)
   }
 
+  test("test GDC") {
+    assert(Operations.gcd(5, 25) == 5)
+    assert(Operations.gcd(7, 49) == 7)
+    assert(Operations.gcd(10, 70) == 10)
+    assert(Operations.gcd(70, 49) == 7)
+  }
+
 }
